@@ -7,15 +7,43 @@
     <link rel="stylesheet" href="style.css">
 
 
+    <link href="ImageViewer-master/imageviewer.css"  rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+
+    <!-- or <script src="jquery.js"></script> -->
+    <script src="ImageViewer-master/imageviewer.js"></script>
+
+
     <!-- Compiled and minified JavaScript -->
     <script src="materialize/js/materialize.min.js"></script>
+
+    <script>
+        $(function () {
+            var viewer = ImageViewer();
+            $('.card-panel').click(function () {
+                var imgSrc = this.src,
+//                var imgSrc = $(this).data('high-res-img'),
+                    highResolutionImage = $(this).data('high-res-img');
+
+                viewer.show("images/test.png", "images/test.png");
+            });
+        });
+    </script>
 
     <title>Dashboard</title>
 </head>
 <body style="background-color:#f3f3f3">
+
+
+
+
+
+
+
 <div class="row">
     <div class="col s12 m2">
-        <div class="card-panel teal">
+        <div class="card-panel teal" data-high-res-src="images/test.png">
           <h5 class="white-text">1.Pre Season
           </h5>
         </div>
