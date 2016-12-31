@@ -4481,6 +4481,7 @@ small {
   border-radius: 2px;
   background-color: #fff;
   cursor: pointer;
+  /*height: 15vh;*/
 }
 
 .card {
@@ -5415,6 +5416,7 @@ button.btn-floating {
 .modal.modal-fixed-footer {
   padding: 0;
   height: 70%;
+  width:80%;
 }
 
 .modal.modal-fixed-footer .modal-content {
