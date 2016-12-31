@@ -983,9 +983,30 @@
   background-color: #009688 !important;
 }
 
-.test{
-  background-color: #006596 !important;
+.color1{
+  background-color: #369603 !important;
 }
+
+.color2{
+  background-color: #19507a !important;
+}
+
+.color3{
+  background-color: #962643 !important;
+}
+
+.color4{
+  background-color: #00968d !important;
+}
+
+.color5{
+  background-color: #96001c !important;
+}
+
+.color6{
+  background-color: #799611 !important;
+}
+
 
 .teal-text {
   color: #009688 !important;
@@ -5360,7 +5381,7 @@ button.btn-floating {
   right: 0;
   background-color: #fafafa;
   padding: 0;
-  max-height: 70%;
+  max-height: 90%;
   width: 55%;
   margin: auto;
   overflow-y: auto;
