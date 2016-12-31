@@ -1,3 +1,13 @@
 h5{
     font-size: large;
 }
+
+body{
+    background-image: url("images/background/image.jpg");
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+
+}

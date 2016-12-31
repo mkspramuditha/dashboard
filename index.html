@@ -8,108 +8,266 @@
 
 
     <link href="ImageViewer-master/imageviewer.css"  rel="stylesheet" type="text/css" />
-    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 
-
-    <!-- or <script src="jquery.js"></script> -->
-    <script src="ImageViewer-master/imageviewer.js"></script>
 
 
     <!-- Compiled and minified JavaScript -->
-    <script src="materialize/js/materialize.min.js"></script>
 
-    <script>
-        $(function () {
-            var viewer = ImageViewer();
-            $('.card-panel').click(function () {
-                var imgSrc = this.src,
-//                var imgSrc = $(this).data('high-res-img'),
-                    highResolutionImage = $(this).data('high-res-img');
 
-                viewer.show("images/test.png", "images/test.png");
-            });
-        });
-    </script>
+
 
     <title>Dashboard</title>
 </head>
-<body style="background-color:#f3f3f3">
+<body>
 
 
 
 
+<!-- Modal Structure -->
 
 
-
-<div class="row">
-    <div class="col s12 m2">
+<div class="row" style="margin-top: 30vh;">
+    <div class="col s12 m4">
+        <a class="modal-trigger " data-target="modal1">
         <div class="card-panel teal" data-high-res-src="images/test.png">
+
           <h5 class="white-text">1.Pre Season
           </h5>
-        </div>
-    </div>
 
-    <div class="col s12 m2">
-        <div class="card-panel test">
-            <h6 class="white-text">1.1-Development forecasts
-            </h6>
         </div>
+        </a>
     </div>
+    <div class="col s12 m4">
+        <a class="modal-trigger " data-target="modal2">
 
-    <div class="col s12 m2">
-        <div class="card-panel test">
-            <h6 class="white-text">1.2-Innovation/Newness collection
-            </h6>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col s12 m2">
-        <div class="card-panel teal">
+        <div class="card-panel teal" data-high-res-src="images/test.png">
             <h5 class="white-text">2.Seasonal Kick off
             </h5>
         </div>
+        </a>
     </div>
-</div>
-
-<div class="row">
-    <div class="col s12 m2">
-        <div class="card-panel teal">
+    <div class="col s12 m4">
+        <a class="modal-trigger " data-target="modal3">
+        <div class="card-panel teal" data-high-res-src="images/test.png">
             <h5 class="white-text">3.Critical Calendar Events
             </h5>
         </div>
+        </a>
     </div>
 </div>
 
-<div class="row">
-    <div class="col s12 m2">
-        <div class="card-panel teal">
+<div class="row" >
+    <div class="col s12 m4">
+        <a class="modal-trigger " data-target="modal4">
+            <div class="card-panel teal" data-high-res-src="images/test.png">
             <h5 class="white-text">4.Buy Process
             </h5>
         </div>
+        </a>
     </div>
-</div>
-
-<div class="row">
-    <div class="col s12 m2">
-        <div class="card-panel teal">
+    <div class="col s12 m4">
+        <a class="modal-trigger " data-target="modal5">
+        <div class="card-panel teal" data-high-res-src="images/test.png">
             <h5 class="white-text">5.Repetitive processes
             </h5>
         </div>
+        </a>
     </div>
-</div>
-
-<div class="row">
-    <div class="col s12 m2">
-        <div class="card-panel teal">
+    <div class="col s12 m4">
+        <a class="modal-trigger " data-target="modal6">
+        <div class="card-panel teal" data-high-res-src="images/test.png">
             <h5 class="white-text">6.Additional processes
             </h5>
         </div>
+        </a>
     </div>
 </div>
 
 
+<div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>1.Pre Season</h4>
+        <div class="row" style="margin: auto;">
+            <center>
+            <div class="col s4 m5 offset-m1">
+                <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                    <h5 class="white-text">1.1-Development forecasts
+                    </h5>
+                </div>
+            </div>
+
+                <div class="col s4 m5">
+                    <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                        <h5 class="white-text">1.2-Innovation/Newness collection
+                        </h5>
+                    </div>
+                </div>
+
+            </center>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+    </div>
+</div>
+<div id="modal2" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>1.Pre Season</h4>
+        <div class="row" style="margin: auto;">
+            <center>
+            <div class="col s4 m5 offset-m1">
+                <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                    <h5 class="white-text">1.1-Development forecasts
+                    </h5>
+                </div>
+            </div>
+
+                <div class="col s4 m5">
+                    <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                        <h5 class="white-text">1.2-Innovation/Newness collection
+                        </h5>
+                    </div>
+                </div>
+
+            </center>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+    </div>
+</div>
+<div id="modal3" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>1.Pre Season</h4>
+        <div class="row" style="margin: auto;">
+            <center>
+            <div class="col s4 m5 offset-m1">
+                <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                    <h5 class="white-text">1.1-Development forecasts
+                    </h5>
+                </div>
+            </div>
+
+                <div class="col s4 m5">
+                    <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                        <h5 class="white-text">1.2-Innovation/Newness collection
+                        </h5>
+                    </div>
+                </div>
+
+            </center>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+    </div>
+</div>
+<div id="modal4" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>1.Pre Season</h4>
+        <div class="row" style="margin: auto;">
+            <center>
+            <div class="col s4 m5 offset-m1">
+                <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                    <h5 class="white-text">1.1-Development forecasts
+                    </h5>
+                </div>
+            </div>
+
+                <div class="col s4 m5">
+                    <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                        <h5 class="white-text">1.2-Innovation/Newness collection
+                        </h5>
+                    </div>
+                </div>
+
+            </center>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+    </div>
+</div>
+<div id="modal5" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>1.Pre Season</h4>
+        <div class="row" style="margin: auto;">
+            <center>
+            <div class="col s4 m5 offset-m1">
+                <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                    <h5 class="white-text">1.1-Development forecasts
+                    </h5>
+                </div>
+            </div>
+
+                <div class="col s4 m5">
+                    <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                        <h5 class="white-text">1.2-Innovation/Newness collection
+                        </h5>
+                    </div>
+                </div>
+
+            </center>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+    </div>
+</div>
+<div id="modal6" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>1.Pre Season</h4>
+        <div class="row" style="margin: auto;">
+            <center>
+            <div class="col s4 m5 offset-m1">
+                <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                    <h5 class="white-text">1.1-Development forecasts
+                    </h5>
+                </div>
+            </div>
+
+                <div class="col s4 m5">
+                    <div class="card-panel teal imageView" data-high-res-src="images/test.png">
+                        <h5 class="white-text">1.2-Innovation/Newness collection
+                        </h5>
+                    </div>
+                </div>
+
+            </center>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+<!--<script src="materialize/js/materialize.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+
+<!-- or <script src="jquery.js"></script> -->
+<script src="ImageViewer-master/imageviewer.js"></script>
+
+<script>
+    $(function () {
+        var viewer = ImageViewer();
+        $('.imageView').click(function () {
+//            var imgSrc = this.src,
+                var imgSrc = $(this).data('high-res-img'),
+                highResolutionImage = $(this).data('high-res-img');
+
+            viewer.show("images/test.png", "images/test.png");
+        });
+    });
+
+
+    $(document).ready(function() {
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal-trigger').leanModal();
+    });
+
+</script>
 
 </body>
 </html>
