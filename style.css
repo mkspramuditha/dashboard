@@ -1,6 +1,8 @@
 h5{
     font-size: larger;
     margin:auto;
+    color: black;
+    font-weight: bold;
 }
 
 #modal1 .modal-data{
