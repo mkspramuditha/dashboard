@@ -4089,11 +4089,13 @@ nav .button-collapse i {
 
 nav .brand-logo {
   position: absolute;
-  color: #fff;
+  color: #ff8848;
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
   white-space: nowrap;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
 }
 
 nav .brand-logo.center {

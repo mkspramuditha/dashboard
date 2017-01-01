@@ -5,6 +5,11 @@ h5{
     font-weight: bold;
 }
 
+.head-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
 #modal1 .modal-data{
     padding-top: 12%;
 }
