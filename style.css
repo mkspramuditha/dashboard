@@ -10,6 +10,10 @@ h5{
     font-weight: 500;
 }
 
+.main-buttons{
+    font-size: x-large;
+}
+
 #modal1 .modal-data{
     padding-top: 12%;
 }
