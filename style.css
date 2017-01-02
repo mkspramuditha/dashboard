@@ -19,7 +19,51 @@ h5{
 }
 
 #modal1 .modal-content{
-    background-image: url("images/background/image.jpg");
+    background-image: url("images/background/popup/nike wall 05 txt op II_compressed.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#modal2 .modal-content{
+    background-image: url("images/background/popup/632659.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#modal3 .modal-content{
+    background-image: url("images/background/popup/632669.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#modal4 .modal-content{
+    background-image: url("images/background/popup/Board Room - dont quite - 116X94 6.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#modal5 .modal-content{
+    background-image: url("images/background/popup/215935.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#modal6 .modal-content{
+    background-image: url("images/background/popup/fa13_rn_flyknit_allyson_felix_13-06-01_0620.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #modal1 .modal-data{
