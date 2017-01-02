@@ -349,7 +349,7 @@
         </div>
     </div>
     <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+        <a href="index.html" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
     </div>
 </div>
 <div id="modal6" class="modal modal-fixed-footer">
@@ -432,7 +432,7 @@
         </div>
     </div>
     <div class="modal-footer">
-        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
 </div>
 
@@ -535,10 +535,11 @@
 <script src="ImageViewer-master/imageviewer.js"></script>
 
 <script>
+
+
     $(function () {
         var viewer = ImageViewer();
         $('.imageView').click(function () {
-//            var imgSrc = this.src,
                 var imgSrc = $(this).data('high-res-src'),
                 highResolutionImage = $(this).data('high-res-src');
                 console.log(imgSrc);
@@ -548,7 +549,6 @@
 
 
     $(document).ready(function() {
-        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
         $('.modal-trigger').leanModal();
     });
 
