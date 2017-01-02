@@ -18,7 +18,12 @@ h5{
     font-size: large;
 }
 
+#modal1 .modal-content{
+    background-image: url("images/background/image.jpg");
+}
+
 #modal1 .modal-data{
+
     padding-top: 12%;
 }
 #modal2 .modal-data{

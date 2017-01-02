@@ -981,11 +981,13 @@
 
 .teal {
   /*background-color: #009688 !important;*/
-  background-color: #18ffff !important;
+  /*background-color: #18ffff !important;*/
+  background-color: #ff8848 !important;
 }
 
 .color1{
-  background-color: #369603 !important;
+  /*background-color: #369603 !important;*/
+  background-color: #009688 !important;
 }
 
 .color2{
@@ -2626,7 +2628,7 @@ a {
 }
 
 .z-depth-5 {
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 16px 24px 2px rgba(255, 255, 255, 0.14), 0 6px 30px 5px rgba(255, 255, 255, 0.12), 0 8px 10px -5px rgba(255, 255, 255, 0.3);
 }
 
 .hoverable {
@@ -4512,7 +4514,7 @@ small {
   background-color: #fff;
   cursor: pointer;
   justify-content: center;
-  height: 17vh;
+  height: 11vh;
 }
 
 .card {
@@ -5272,7 +5274,7 @@ button.btn-floating {
 .waves-effect {
   position: relative;
   cursor: pointer;
-  display: inline-block;
+  /*display: inline-block;*/
   overflow: hidden;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -5385,7 +5387,7 @@ button.btn-floating {
 }
 
 .modal {
-
+  z-index: 1000;
   display: none;
   position: fixed;
   left: 0;
