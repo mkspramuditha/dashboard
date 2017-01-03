@@ -987,27 +987,39 @@
 
 .color1{
   /*background-color: #369603 !important;*/
-  background-color: #009688 !important;
+  /*background-color: #009688 !important;*/
+  background-color: rgba(0, 150, 136, .5) !important;
+
 }
 
 .color2{
-  background-color: #19507a !important;
+  /*background-color: #19507a !important;*/
+  background-color: rgba(25, 80 , 122, .5) !important;
+
 }
 
 .color3{
-  background-color: #962643 !important;
+  /*background-color: #962643 !important;*/
+  background-color: rgba(150, 38, 67, .5) !important;
+
 }
 
 .color4{
-  background-color: #0097a7 !important;
+  /*background-color: #0097a7 !important;*/
+  background-color: rgba(0, 151, 167, .5) !important;
+
 }
 
 .color5{
   background-color: #96001c !important;
+  background-color: rgba(150,0 , 28, .5) !important;
+
 }
 
 .color6{
   background-color: #799611 !important;
+  background-color: rgba(121, 150, 17, .5) !important;
+
 }
 
 
@@ -4515,6 +4527,8 @@ small {
   cursor: pointer;
   justify-content: center;
   height: 11vh;
+  /*opacity: 0.5;*/
+  /*filter: alpha(opacity=50);*/
 }
 
 .card {
