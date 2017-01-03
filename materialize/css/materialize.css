@@ -4050,7 +4050,7 @@ input[type=range] + .thumb {
 
 nav {
   color: #fff;
-  background-color: #000000;
+  background-color: #dfdfdf;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4103,7 +4103,8 @@ nav .button-collapse i {
 
 nav .brand-logo {
   position: absolute;
-  color: #ff8848;
+  /*color: #ff8848;*/
+  color: #000000;
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;

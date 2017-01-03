@@ -108,7 +108,7 @@ body{
     background-size:  cover;
     background-color: #999;
 
-    -webkit-filter: sepia(0.3);
-    filter: sepia(0.3);
+    /*-webkit-filter: sepia(0.3);*/
+    /*filter: sepia(0.3);*/
 
 }
