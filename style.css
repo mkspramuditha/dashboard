@@ -7,7 +7,7 @@ h5{
 
 .main-btn{
     background-color: rgba(255, 255, 255, 0) !important;
-    border: solid 2px #ff8848 !important;
+    /*border: solid 2px #ff8848 !important;*/
     height: 9vh;
     font-size: medium;
 }
@@ -23,6 +23,10 @@ h5{
 .main-buttons{
     text-align: left;
     font-size: large;
+}
+
+.orange{
+    color: #ff8848;
 }
 
 
@@ -81,7 +85,7 @@ h5{
 
 #modal1 .modal-data{
 
-    padding-top: 12%;
+    padding-top: 0;
 }
 #modal2 .modal-data{
     padding-top: 5%;

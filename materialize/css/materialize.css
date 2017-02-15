@@ -988,13 +988,13 @@
 .color1{
   /*background-color: #369603 !important;*/
   /*background-color: #009688 !important;*/
-  background-color: rgba(0, 150, 136, .5) !important;
+  background-color: rgba(0, 150, 136, 0) !important;
 
 }
 
 .color2{
   /*background-color: #19507a !important;*/
-  background-color: rgba(25, 80 , 122, .5) !important;
+  background-color: rgba(25, 80 , 122, 0) !important;
 
 }
 
