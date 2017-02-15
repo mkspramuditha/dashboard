@@ -1,6 +1,6 @@
 h5{
     font-size: larger;
-    margin:auto;
+    margin: auto auto auto 10px ;
     color: black;
     font-weight: bold;
 }
@@ -14,6 +14,8 @@ h5{
 
 .main-btn h5{
     color: white !important;
+    text-shadow: -0.2px 0 black, 0 0.2px black, 0.2px 0 black, 0 -0.2px black;
+
 }
 .head-title{
     font-family: "Roboto", sans-serif;
@@ -118,4 +120,29 @@ body{
     /*-webkit-filter: sepia(0.3);*/
     /*filter: sepia(0.3);*/
 
+}
+
+.card-panel1 {
+    transition: box-shadow .25s;
+    /*padding: 30px ;*/
+    /*top: 50%;*/
+    vertical-align:middle;
+    display: flex;
+    /*flex-direction: row;*/
+    /*-webkit-flex-direction: column;*/
+    /*flex-direction: column;*/
+    /*float: left;*/
+    /*text-align: left;*/
+    /**/
+    /*align-content: flex-end;*/
+    /*justify-content: flex-end;*/
+    margin: 3px;
+    /*margin: 0 auto;*/
+    border-radius: 2px;
+    background-color: #fff;
+    cursor: pointer;
+    /*justify-content: center;*/
+    height: 11vh;
+    /*opacity: 0.5;*/
+    /*filter: alpha(opacity=50);*/
 }
